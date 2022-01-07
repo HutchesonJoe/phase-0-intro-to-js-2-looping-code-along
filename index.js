@@ -2,14 +2,14 @@
 
 function writeCards(names, event) {
     for (let i = 0; i < names.length; i++){
+const thankYouCard = [`Thank you, ${names[i]}, for the ${event} card!`];
+
+return thankYouCard[i];
 
     }
-    for (let i = 0; i < event.length; i++){
-
-    }
-    console.log(writeCards);
-    return "Thank you ${names[i]} for the ${event}!";
-
-
+    
+   
+    
 }
-writeCards (["Charlie", "Samip", "Ali"], "birthday");
+
+writeCards(["Charlie", "Samip", "Ali"], "birthday");
