@@ -2,9 +2,10 @@
 
 function writeCards(names, event) {
     for (let i = 0; i < names.length; i++){
+console.log(`Thank you, ${names[i]}, for the ${event} card!`)
 const thankYouCard = [`Thank you, ${names[i]}, for the ${event} card!`];
-
-return thankYouCard[i];
+//console.log(`I am being repeated`);
+//return thankYouCard[i];
 
     }
     
@@ -12,4 +13,4 @@ return thankYouCard[i];
     
 }
 
-writeCards(["Charlie", "Samip", "Ali"], "birthday");
+writeCards(["Guadalupe", "Ollie", "Aki"], "birthday");
